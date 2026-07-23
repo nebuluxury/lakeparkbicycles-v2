@@ -387,3 +387,7 @@ footer.site{background:var(--deep);color:#cfe0e6}
 .affirm-line{background:var(--teal-soft);border:1px solid #bfe3df;border-radius:12px;padding:12px 15px;color:var(--deep);font-size:14.5px;margin:-4px 0 24px}
 .affirm-line b{color:var(--deep);font-weight:700}
 .affirm-line .fin-sub{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+
+/* contain photo-hero text to the left column */
+.photo-hero .lead{max-width:620px;margin-left:0;margin-right:0;text-align:left}
+.photo-hero .in .acts{max-width:620px;margin-left:0;margin-right:0;justify-content:flex-start}
